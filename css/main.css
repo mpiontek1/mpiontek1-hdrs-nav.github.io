@@ -1,0 +1,74 @@
+/* -- structure -- */
+
+
+
+.header-logo {
+  height: 110px;
+  background-color: #666666;
+}
+
+div .header-nav {
+  height: 28px;
+  background-color: #f49542;
+}
+
+main {
+  min-height: 400px;
+  background-color: #999999;
+}
+
+footer {
+  height: 120px;
+  background-color: #666666;
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* -- logo -- */
+
+header img {
+  float: left;
+  width: 200px;
+  margin: 0 5px;
+  padding: 5px 25px 5px 25px;
+}
+
+/* -- navigation -- */
+
+#top-nav {
+  float: right;
+  margin: 5px;
+  padding-right: 25px;
+}
+
+#top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+#top-nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#top-nav ul li a {
+  font-size: 14px;
+  font-family: 'Droid Sans', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+  color: #666666;
+}
